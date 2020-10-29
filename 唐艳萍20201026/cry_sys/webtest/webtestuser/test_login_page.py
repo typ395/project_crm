@@ -47,7 +47,7 @@ if __name__ == '__main__':
     print(time.localtime())
     now_time = time.strftime('%Y-%m-%d', time.localtime())
     # 'D:\\测试\\selenium\\唐艳萍20201026\\cry_sys\\report\\loginpage'
-    with open('../../cry_sys/report/loginpage' + now_time + '.html',
+    with open('../../report/loginpage' + now_time + '.html',
               'wb+') as file:
         runner = HTMLTestRunner(stream=file, verbosity=1, title='auto_test', description=None)
         # 运行case

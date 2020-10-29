@@ -1,6 +1,6 @@
 
-import sys
-sys.path.append('D:\\测试\\selenium')
+# import sys
+# sys.path.append('D:\\测试\\selenium')
 from 唐艳萍20201026.cry_sys.base.broweroperation import BrowserOperation
 from 唐艳萍20201026.cry_sys.base.usebrowser import UseBrowser
 from 唐艳萍20201026.cry_sys.conifg.log_crm import AutoLog
